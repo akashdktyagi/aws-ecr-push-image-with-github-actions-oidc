@@ -1,0 +1,29 @@
+[
+    {
+        "id": 10001,
+        "name":"Suhas Korhale",
+        "age" : "33",
+        "city":"Pune",
+        "usertype": "admin",
+        "userid": "suhask009@gmail.com",
+        "accesstoken": "eyhgskkjsjkkkhuurhkljbahj"
+    },
+    {
+        "id": 10002,
+        "name":"Sachin Thombare",
+        "age" : "30",
+        "city":"Pune",
+        "usertype": "patient",
+        "userid": "sachinth07@gmail.com",
+        "accesstoken": "eyhgskkjsjkkkhuurhkljbahj768hjj"
+    },
+    {
+        "id": 10001,
+        "name":"Akash Tyagi",
+        "age" : "28",
+        "city":"Pune",
+        "usertype": "doctor",
+        "userid": "akasht@gmail.com",
+        "accesstoken": "eyhgskkjsjkkkhuurhkljbahjrteyy"
+    }
+]

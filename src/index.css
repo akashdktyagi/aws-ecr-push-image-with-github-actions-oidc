@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container .me-auto{
+  margin-right: 0 !important;
+}
+.navbar-brand{
+  font-size: 2rem;
+    width: 100%;
+}
+.navbar .container a, .navbar h2{
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.container a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.userprofile .form-label{float: left;}
+
+.fixed-top{
+  transition: ease-in .2s;
+}
+.CommonTable .react-bootstrap-table-pagination .col-md-6.col-xs-6.col-sm-6.col-lg-6 {
+  text-align: left;
+  position: relative;
+}
+.react-bootstrap-table-pagination-list {
+  display: flex;
+  justify-content: flex-end;
+}
+#header .pro-sidebar{
+  height: 91vh;
+}
+.container-fluid{
+    position: relative;
+    box-sizing: content-box;
+}
+.CustomTable td {
+  word-break: break-word;
+}
+.react-bootstrap-table table {
+  table-layout: auto !important;
+} 
+.spinnerOuter{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #000;
+    z-index: 12;
+}
+.spinnerClass{
+  position: absolute;
+    margin: 0 auto;
+    bottom: 40%;
+    width: 100px;
+    height: 100px;
+}
+.fade.toast.show {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  background: #0d6efd;
+  color: #fff;
+  margin: auto;
+}
+.timeOuter {
+  margin-top: 20px;
+}
+.react-datepicker__input-container input, .react-time-picker{
+  width: 100%;
+}
+@media (max-width: 980px) {
+  .custombtn.w-25 {
+    width: 80% !important
+  }
+  .w-25.btn.btn-primary.btn-lg {
+    width: 100% !important;
+  }
+}

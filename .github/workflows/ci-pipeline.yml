@@ -43,7 +43,7 @@ jobs:
     - name: configure aws credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::318134353397:role/ECRConnectToGitHubActionsForFullStackProject
+        role-to-assume: arn:aws:iam::318134353397:role/GitHubActionsTrustRole
         role-duration-seconds: 900 # the ttl of the session, in seconds.
         aws-region: us-east-1 # use your region here.
 
